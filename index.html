@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Test App for AngularJS and RequireJS</title>
+  <link rel="stylesheet" href="app/css/app.css">
+</head>
+<body>
+  <ul class="menu">
+    <li><a href="#!/view1">view1</a></li>
+    <li><a href="#!/view2">view2</a></li>
+  </ul>
+
+  <div data-ng-view></div>
+
+  <script src="node_modules/requirejs/require.js" data-main="app/scripts/main.js"></script>
+</body>
+</html>
